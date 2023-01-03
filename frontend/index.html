@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencija odeljenjskog staresinstva</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">
+            DNEVNIK ODELJNJSKOG STAREŠINE
+        </h1>
+    </div>
+
+    <table id="table" class="table_body">
+
+    </table> <hr>
+    <form name="unos_podataka" method="post">
+        <div class="form-row">
+            <label for="ime_i_prezime">Ime i prezime</label>
+            <input type="text" id="ime_i_prezime" name="ime_i_prezime" required>
+        </div>
+        
+        <div class="form-row">
+            <label for="adresa">Adresa</label>
+            <input type="text" id="adresa" name="adresa" required>
+        </div>
+        <div class="form-row">
+            <label for="izborni_predmet">Izborni predmet</label>
+            <input type="text" id="izborni_predmet" name="izborni_predmet"> 
+        </div>
+        <div class="form-row">
+            <label for="nastavnik">Nastavnik</label>        
+            <input type="text" id="nastavnik" name="nastavnik" required> 
+        </div>
+        <div class="form-row">
+            <label for="opisna_ocena">Opisna ocena</label>
+            <input type="text" id="opisna_ocena" cols="30" rows="10"></input>
+        </div>
+        <br>
+        <div class="form-row">
+            <input type="button" class="add-btn" value="UNESI UCENIKA" onclick="unesiucenika();">
+        </div>
+         
+    </form>
+
+</body>
+</html>

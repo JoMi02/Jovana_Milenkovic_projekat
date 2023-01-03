@@ -1,0 +1,58 @@
+form{
+    width: 50%;
+}
+
+body {
+    background-image: url("../school.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family: sans-serif;
+	color: black;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+.table_body{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table_body, td, th{
+    border: 1px solid #fd2;
+    padding: 8px;
+}
+table_body tr:nth-child(even){background-color: #f2f2f2;}
+
+.table_body tr:hover {background-color: #ddd;}
+
+
+
+.table_body th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #53786a;
+  color: white;
+}
+.btn-delete{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+.btn-delete:hover{
+    background-color: rgba(17, 17, 17, 0.818);
+    color: white;
+}
+.add-btn{
+    background-color: #53786a;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.add-btn:hover{
+    background-color: orange;
+}
